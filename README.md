@@ -1,5 +1,5 @@
-# Lambda Foundation Website
+# Lambda Foundation Website - Main Branch
 
-This is our official website.
+This is the stable branch of the Lambda Foundation website.
 
-Please note that it is still in development.
+Once changes have been made to dev, they come here.
