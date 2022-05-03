@@ -24,7 +24,10 @@ body {
 hr {
   height: 1px;
   border: 0;
-  background-color: #bbc2cf;
+  
+  /*background-color: #bbc2cf;*/
+  background-color: #5c6370;
+    
 }
 /* } */
 
@@ -77,6 +80,10 @@ blockquote {
   background-color: #ffffff;
 }
 
+.light-content-box p {
+    color: #000;
+}
+
 .light-content-box {
   /* margin-left: 50px;
   margin-right: 50px; */
@@ -85,6 +92,7 @@ blockquote {
   padding-right: 50px;
   padding-bottom: 50px;
   background-color: #ffffff;
+  font-weight: bold;
 }
 
 .dark-content-box {
@@ -136,6 +144,37 @@ h5,
 h6 {
   font-weight: normal;
 } */
+
+.navbar .active {
+  background-color: #a9a1e1;
+}
+
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #1e2127;
+}
+
+.navbar li {
+  float: left;
+}
+
+.navbar li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+.navbar li a:hover {
+  background-color: #98c379;
+}
+
+
 
 h1 {
   color: var(--h1-color);
