@@ -1,3 +1,5 @@
-# Lambda Foundation Website - Dev Branch
+# Lambda Foundation Website - Main Branch
 
-Once you make significant changes to the dev branch, make sure to check in with the admins before merging it into the main branch.
+This is the stable branch of the Lambda Foundation website.
+
+Once changes have been made to dev, they come here.
