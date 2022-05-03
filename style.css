@@ -41,6 +41,15 @@ hr {
   }
 } */
 
+blockquote {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 0px;
+  padding-left: 15px;
+  border-left: 3px solid #ccc;
+  color: #e06c75;
+}
+
 .dark-box {
   display: flex;
   flex-direction: column;
@@ -99,7 +108,7 @@ hr {
 
 .background-image {
   height: 100%;
-  background-image: url("/assets/images/background.jpg");
+  background-image: url("background.jpg");
   background-size: cover;
   position: relative;
 }
