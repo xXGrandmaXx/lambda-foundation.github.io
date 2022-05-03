@@ -151,6 +151,7 @@ h3 {
 
 p {
   color: var(--p-color);
+  font-weight: bold;
 }
 
 pre {
