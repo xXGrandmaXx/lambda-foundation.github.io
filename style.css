@@ -264,7 +264,7 @@ li {
 footer {
   position: relative;
   width: 100%;
-  background: #56b6c2;
+  background: #1e2127;
   min-height: 100px;
   padding: 20px 50px;
   display: flex;
@@ -273,7 +273,7 @@ footer {
   flex-direction: column;
 }
 
-footer .social_icon, 
+footer .social_icon,
 footer .menu
 {
   position: relative;
