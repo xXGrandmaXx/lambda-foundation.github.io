@@ -1,5 +1,5 @@
-# Lambda Foundation Website - Main Branch
+# Lambda Foundation Website
 
-This is the stable branch of the Lambda Foundation website.
+In order to make changes on main, you must first commit to dev and then make a pull request.
 
-Once changes have been made to dev, they come here.
+Before making a pull request, you must ask the admins if your changes are okay.
