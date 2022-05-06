@@ -55,7 +55,7 @@
     justify-content: center;
     top: -80px;
     font-size: 7em;
-    color: rgba(255, 255, 255, 0.05);
+    color: rgba(82, 82, 82, 1);
     right: 0;
     left: 0;
 }
@@ -63,7 +63,7 @@
 .container .card .content h3
 {
     font-size: 1.8em;
-    color: #fff;
+    color: ##000000;
     font-weight: 300;
     transform: translateZ(30px);
 }
