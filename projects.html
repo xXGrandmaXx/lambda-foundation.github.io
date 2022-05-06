@@ -1,12 +1,9 @@
 <html lang="en-us">
   <head>
      <meta name="viewport" content="width=device-width, initial-scale=1">
-     <link rel="preconnect" href="https://fonts.googleapis.com">
-     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-     <link href="https://fonts.googleapis.com/css2?family=Fira+Code&display=swap" rel="stylesheet">
      <link rel="stylesheet" href="style.css" />
-     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
-     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="stylesheet" href="box.css" />
+     <script src=vanilla-tilt.js"></script>
 
      <title>Lambda Foundation</title>
   </head>
@@ -16,25 +13,47 @@
             <li><a class="active" href="#">Home</a></li>
             <li><a href="about-us.html">About Us</a></li>
             <li><a href="projects.html">Projects</a></li>
-
-            <li><a class="active" href="index.html">Home</a></li>
-            <li><a href="about-us.html">About Us</a></li>
-            <li><a href="#">Projects</a></li>
-
             <li style="float: right"><a href="https://github.com/lambda-foundation" target="_blank">GitHub</a></li>
         </ul>
     </div>
-    
-    <div class="background-image">
-      <div class="box">
-        <h1>Lambda Foundation λ - Code, life, love.</h1>
-        <h2>Projects We Have Done.</h2>
+												   
+  <div class="background-image">
+	<div class = "box">
+		<h1>Lambda Foundation λ - Projects</h1>		
+		<h2>Work In Progress</h2>
+	</div>
+	</div>
+     <div class="container">
+        <div class="card">
+          <div class="content">
+            <h2>AI</h2>
+            <h3>J.A.R.V.I.S.</h3>
+            <p>An AI System brought to you by SkyRise Incorporated</p>
+            <a href="#">Read More</a>
+          </div>
+        </div>
+        <div class="card">
+          <div class="content">
+            <h2>IDE</h2>
+            <h3>WebCode</h3>
+            <p>An IDE capable of supporting Python, Java, and more.</p>
+            <a href="#">Read More</a>
+          </div>
+        </div>
+        <div class="card">
+          <div class="content">
+            <h2>TM</h2>
+            <h3>Flow</h3>
+            <p>THis is a test</p>
+            <a href="#">Read More</a>
+          </div>
+        </div>
       </div>
-    </div>
-    <div class="light-content-box">
-	<h1>Projects We Are Working On</h1>
-	    <h2>COMING SOON</h2>
-	<h1>Projects We Are Done With</h1>
-	    <h2>COMING SOON</h2>
-    </div>
-</html>
+      <script type="text/javascript" src="static/styles/vanilla-tilt.js"></script>
+      <script type="text/javascript">
+        VanillaTilt.init(document.querySelectorAll(".card"), {
+          max: 5,
+          speed: 400,
+          glare: true,
+          "max-glare": 0.3,
+        });
